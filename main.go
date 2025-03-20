@@ -1,6 +1,6 @@
 package main
 
-import "github.com/MaurogDark/gator/internal/config"
+import "github.com/MaurogDark/gator/config"
 
 func main() {
 	cfg, err := config.Read()
